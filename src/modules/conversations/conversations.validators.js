@@ -9,7 +9,7 @@ const createConversationValidator = [
 
     check('participantId', 'Error with participantId')
         .exists().withMessage('The participantId field is required')
-        .notEmpty().withMessage('participantsIds cannot be empty')
+        .notEmpty().withMessage('participantId cannot be empty')
         .isInt({ min: 1 }).withMessage('participantId must be an integer greater than or equal to 1'),
     validateResult,
 ];
