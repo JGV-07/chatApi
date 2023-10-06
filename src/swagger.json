@@ -115,7 +115,7 @@
           "deprecated": false
         }
       },
-      "/api/v1/users/login/reverify-email": {
+      "/api/v1/users/reverify-email": {
         "post": {
           "tags": [
             "users"
